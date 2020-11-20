@@ -1,0 +1,38 @@
+/*selector general*/
+* {
+    color: white;
+}
+
+/*selector de tag*/
+h1 {
+    background-color: red;
+    color: white;
+}
+p {
+    background-color: seagreen;
+    color: greenyellow;
+}
+aside {
+    color: black;
+}
+/* selector de classe*/
+p.diferent { /*si nomé li fiquem . es per totes lees classes diferents*/
+    background-color: darkcyan;
+    color: darkblue;
+}
+.diferent {
+    font-size: 50px;
+}
+/*selector de descendents*/
+div.multimèdia { /*amb una p nomes edita els paràgrafs*/
+    background-color: coral;
+    color: #ffffff
+
+}
+div.mecatrònica p{
+    background-color: orange;
+    color: rgb(200,200,200,1);
+}
+a:hover {
+    text-decoration: underline;
+}
